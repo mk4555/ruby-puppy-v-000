@@ -1,5 +1,9 @@
 class Dog
   @@all = []
+  attr_accessor :name
+  def initialize(name)
+    @
+  end
   def self.claer_all
     @@all = []
   end
@@ -9,4 +13,6 @@ class Dog
       puts "#{dog}"
     end
   end
+
+
 end
